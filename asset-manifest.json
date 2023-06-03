@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/minipodex/static/css/main.92285ce4.css",
+    "main.js": "/minipodex/static/js/main.a6d657de.js",
+    "static/js/787.f6399225.chunk.js": "/minipodex/static/js/787.f6399225.chunk.js",
+    "static/media/guess-bg.png": "/minipodex/static/media/guess-bg.e77cd19d9c994936e69f.png",
+    "static/media/battle-field.jpg": "/minipodex/static/media/battle-field.e6050380df84fafa9330.jpg",
+    "static/media/pokeball.svg": "/minipodex/static/media/pokeball.45325db29605430f43ee9f5d98aa3fe1.svg",
+    "static/media/battle-ico.png": "/minipodex/static/media/battle-ico.270c5db5da364a44b807.png",
+    "static/media/psychic.svg": "/minipodex/static/media/psychic.a00a30eb9975b9833e5ee2a81a32a000.svg",
+    "static/media/poison.svg": "/minipodex/static/media/poison.814204403b91ce0eaf15b952c5d0381a.svg",
+    "static/media/dragon.svg": "/minipodex/static/media/dragon.fff104d2e169966899f7df50333f6434.svg",
+    "static/media/steel.svg": "/minipodex/static/media/steel.d2a2334c588f12e459c5bac77bd65e54.svg",
+    "static/media/fairy.svg": "/minipodex/static/media/fairy.b8833c7b9543b87e68bb30de2f84a67e.svg",
+    "static/media/ground.svg": "/minipodex/static/media/ground.94670cce196af770ce58ddec3af45052.svg",
+    "static/media/rock.svg": "/minipodex/static/media/rock.186455b8aa836eead4ad3c567974b901.svg",
+    "static/media/grass.svg": "/minipodex/static/media/grass.af7f1e36fe399a151d04001ae87d5fbb.svg",
+    "static/media/ghost.svg": "/minipodex/static/media/ghost.00e9e67d8cea3bd208e65a1db38f32c5.svg",
+    "static/media/normal.svg": "/minipodex/static/media/normal.bf85da8616eef7dcc0db5a91fe352db6.svg",
+    "static/media/water.svg": "/minipodex/static/media/water.274b679178e70aaabffad303facc8a32.svg",
+    "static/media/electric.svg": "/minipodex/static/media/electric.4cb1bee7a40ba2afbc56409fae1a94db.svg",
+    "static/media/ice.svg": "/minipodex/static/media/ice.150721e73397959632357642ac55af1a.svg",
+    "static/media/bug.svg": "/minipodex/static/media/bug.dc853b09078772d7c8c5969c3f0af21f.svg",
+    "static/media/logo.svg": "/minipodex/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/fire.svg": "/minipodex/static/media/fire.7c5d46e3492a74acd643b06e567b591b.svg",
+    "static/media/flying.svg": "/minipodex/static/media/flying.5c81bcfcd6dc82a08071aff722963ff0.svg",
+    "static/media/fighting.svg": "/minipodex/static/media/fighting.1e18b4f18af1cbddb49c45ea27cb713a.svg",
+    "static/media/dark.svg": "/minipodex/static/media/dark.2444263b14029ae408d589ea979925c7.svg",
+    "static/media/lightbulb-regular.svg": "/minipodex/static/media/lightbulb-regular.8c0b88deeaca9a92f3d7fb5c0a489e90.svg",
+    "static/media/bar-btn.svg": "/minipodex/static/media/bar-btn.b9f62e432397133024de93e215d7a047.svg",
+    "static/media/lightbulb-blue.svg": "/minipodex/static/media/lightbulb-blue.698b77a167b0b9bc637f7104371298c5.svg",
+    "static/media/exit.svg": "/minipodex/static/media/exit.ee2b6f03058681b64033ff7aeff52e10.svg",
+    "index.html": "/minipodex/index.html",
+    "static/media/arrow-btn.svg": "/minipodex/static/media/arrow-btn.36f2dcf8ac4d7ead4320b9283c2ff8e7.svg",
+    "main.92285ce4.css.map": "/minipodex/static/css/main.92285ce4.css.map",
+    "main.a6d657de.js.map": "/minipodex/static/js/main.a6d657de.js.map",
+    "787.f6399225.chunk.js.map": "/minipodex/static/js/787.f6399225.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.92285ce4.css",
+    "static/js/main.a6d657de.js"
+  ]
+}

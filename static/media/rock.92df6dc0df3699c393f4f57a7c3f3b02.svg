@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 72 72" style="enable-background:new 0 0 72 72;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#Rectangle-2_5_);}
+	.st1{fill:url(#Rectangle-2_6_);}
+	.st2{fill:url(#Rectangle-2_7_);}
+	.st3{fill:url(#Rectangle-2_8_);}
+	.st4{fill:url(#Rectangle-2_9_);}
+	.st5{fill:#FFFFFF;}
+</style>
+<g id="Types_Poison" transform="translate(10 10)">
+	<g id="Group" transform="translate(5 5)">
+		<g transform="matrix(1, 0, 0, 1, -15, -15)">
+			
+				<linearGradient id="Rectangle-2_5_" gradientUnits="userSpaceOnUse" x1="10.6667" y1="61.5333" x2="10.6667" y2="61.5333" gradientTransform="matrix(30 0 0 -30 -284 1846)">
+				<stop  offset="0" style="stop-color:#A864C7"/>
+				<stop  offset="1" style="stop-color:#C261D4"/>
+			</linearGradient>
+			<path id="Rectangle-2_1_" class="st0" d="M36,0L36,0"/>
+		</g>
+	</g>
+</g>
+<g id="Types_Psychic" transform="translate(10 10)">
+	<g id="Group_1_" transform="translate(5 5)">
+		<g transform="matrix(1, 0, 0, 1, -15, -15)">
+			
+				<linearGradient id="Rectangle-2_6_" gradientUnits="userSpaceOnUse" x1="9.4667" y1="60.3333" x2="9.4667" y2="60.3333" gradientTransform="matrix(30 0 0 -30 -284 1846)">
+				<stop  offset="0" style="stop-color:#F66F71"/>
+				<stop  offset="1" style="stop-color:#FE9F92"/>
+			</linearGradient>
+			<path id="Rectangle-2_4_" class="st1" d="M0,36L0,36"/>
+			
+				<linearGradient id="Rectangle-2_7_" gradientUnits="userSpaceOnUse" x1="10.6667" y1="59.1333" x2="10.6667" y2="59.1333" gradientTransform="matrix(30 0 0 -30 -284 1846)">
+				<stop  offset="0" style="stop-color:#F66F71"/>
+				<stop  offset="1" style="stop-color:#FE9F92"/>
+			</linearGradient>
+			<path id="Rectangle-2_3_" class="st2" d="M36,72L36,72"/>
+			
+				<linearGradient id="Rectangle-2_8_" gradientUnits="userSpaceOnUse" x1="10.6667" y1="61.5333" x2="10.6667" y2="61.5333" gradientTransform="matrix(30 0 0 -30 -284 1846)">
+				<stop  offset="0" style="stop-color:#F66F71"/>
+				<stop  offset="1" style="stop-color:#FE9F92"/>
+			</linearGradient>
+			<path id="Rectangle-2_2_" class="st3" d="M36,0L36,0"/>
+		</g>
+	</g>
+</g>
+<g id="Types_Rock" transform="translate(10 10)">
+	<g id="Group_2_" transform="translate(5 5)">
+		<g transform="matrix(1, 0, 0, 1, -15, -15)">
+			
+				<linearGradient id="Rectangle-2_9_" gradientUnits="userSpaceOnUse" x1="10.6667" y1="61.5333" x2="10.6667" y2="59.1333" gradientTransform="matrix(30 0 0 -30 -284 1846)">
+				<stop  offset="0" style="stop-color:#C5B489"/>
+				<stop  offset="1" style="stop-color:#D7CD90"/>
+			</linearGradient>
+			<path id="Rectangle-2" class="st4" d="M36,0L36,0c19.9,0,36,16.1,36,36l0,0c0,19.9-16.1,36-36,36l0,0C16.1,72,0,55.9,0,36l0,0
+				C0,16.1,16.1,0,36,0z"/>
+		</g>
+		<path id="Path_8" class="st5" d="M22.4,35.3l-7.8-2.6l13.6-9.3c0.2-0.1,0.5-0.1,0.6,0.1c0,0,0,0,0,0l3.1,4.6
+			c0.1,0.2,0.1,0.5-0.1,0.6l-9,6.5c-0.1,0.1-0.2,0.1-0.3,0.1C22.5,35.4,22.4,35.3,22.4,35.3z M11.3,32.1l-6.8-2.2
+			c-0.2-0.1-0.3-0.2-0.3-0.4v-7c0-0.1,0-0.2,0.1-0.3L15,9.2c0.1-0.1,0.2-0.2,0.3-0.2h13.8c0.2,0,0.4,0.2,0.4,0.4c0,0,0,0,0,0.1
+			l-1.7,11.1c0,0.1-0.1,0.2-0.2,0.3L11.7,32c-0.1,0-0.2,0.1-0.2,0.1C11.4,32.1,11.4,32.1,11.3,32.1L11.3,32.1z M34,26.7l-3.7-5.1
+			c-0.1-0.1-0.1-0.2-0.1-0.3l2-11.9c0-0.2,0.2-0.4,0.4-0.4l0,0c0.2,0,0.4,0.1,0.4,0.3L37.7,24c0.1,0.2,0,0.4-0.1,0.5l-3,2.3
+			C34.4,26.9,34.1,26.9,34,26.7C34,26.7,34,26.7,34,26.7L34,26.7z"/>
+	</g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>
