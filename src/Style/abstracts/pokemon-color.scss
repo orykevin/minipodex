@@ -1,0 +1,214 @@
+
+$black: #4B4B4B;
+$blue: #ABC2F9;
+$brown: #B79C82;
+$gray: #CECECE;
+$green: #ABF9AE;
+$pink: #F9ABDA;
+$purple: #C2ABF9;
+$red: #EE5454;
+$white: #EFFBFF;
+$yellow: #FFF89B;
+
+
+$black-1: #222222 !important ;
+$blue-1: #3e60af !important;
+$brown-1: #82664c !important;
+$gray-1: #818181 !important;
+$green-1: #5c9560 !important;
+$pink-1: #bc5292 !important;
+$purple-1: #7257b2 !important;
+$red-1: #bf3838 !important;
+$white-1: #90b5c8 !important;
+$yellow-1 : #ebd452 !important;
+
+
+$black-2: #626161;
+$blue-2: #b9caf5;
+$brown-2: #d2baa4;
+$gray-2: #e4e4e4;
+$green-2: #bedabf;
+$pink-2: #e8bdd8;
+$purple-2 :#b8acd6;
+$red-2: #ff9696;
+$white-2 : #ecfdff;
+$yellow-2: #faf5b1;
+
+
+.black{
+    background-color: #4B4B4B !important;
+    color: white !important;
+}
+.blue{
+    background-color: #ABC2F9!important;
+}
+.brown{
+    background-color: #B79C82!important;
+}
+.gray{
+    background-color: #CECECE!important;
+}
+.green{
+    background-color: #ABF9AE!important;
+}
+.pink{
+    background-color: #F9ABDA!important;
+}
+.purple{
+    background-color: #C2ABF9!important;
+}
+.red{
+    background-color: #EE5454!important;
+    color: white !important;
+}
+.white{
+    background-color: #EFFBFF!important;
+}
+.yellow{
+    background-color: #FFF89B!important;
+}
+
+
+.black-1{
+    background-color: #222222 !important;
+    color: white !important;
+}
+.blue-1{
+    background-color: #3e60af!important;
+}
+.brown-1{
+    background-color: #82664c!important;
+}
+.gray-1{
+    background-color: #818181!important;
+}
+.green-1{
+    background-color: #5c9560!important;
+}
+.pink-1{
+    background-color: #bc5292!important;
+}
+.purple-1{
+    background-color: #7257b2!important;
+}
+.red-1{
+    background-color: #bf3838!important;
+    color: white !important;
+}
+.white-1{
+    background-color: #90b5c8!important;
+    color: black !important;
+}
+.yellow-1{
+    background-color: #ebd452!important;
+}
+
+
+.black-2{
+    background-color: #626161 !important;
+    color: white !important;
+}
+.blue-2{
+    background-color: #b9caf5!important;
+}
+.brown-2{
+    background-color: #d2baa4!important;
+}
+.gray-2{
+    background-color: #e4e4e4!important;
+}
+.green-2{
+    background-color: #bedabf!important;
+}
+.pink-2{
+    background-color: #e8bdd8!important;
+}
+.purple-2{
+    background-color: #b8acd6!important;
+}
+.red-2{
+    background-color: #ff9696!important;
+    color: black !important;
+}
+.white-2{
+    background-color: #ecfdff!important;
+    color: black !important;
+}
+.yellow-2{
+    background-color: #faf5b1!important;
+}
+
+
+.black-3{
+    background-color: #626161 !important;
+    color: white !important;
+    &:hover{
+        background-color: $black-1;
+        color: white;
+    }
+}
+.blue-3{
+    background-color: #b9caf5!important;
+    &:hover{
+        background-color: $blue-1;
+        color: white;
+    }
+}
+.brown-3{
+    background-color: #d2baa4!important;
+    &:hover{
+        background-color: $brown-1;
+        color: white;
+    }
+}
+.gray-3{
+    background-color: #e4e4e4!important;
+    &:hover{
+        background-color: $gray-1;
+        color: white;
+    }
+}
+.green-3{
+    background-color: #bedabf!important;
+    &:hover{
+        background-color: $green-1;
+        color: white;
+    }
+}
+.pink-3{
+    background-color: #e8bdd8!important;
+    &:hover{
+        background-color: $pink-1;
+        color: white;
+    }
+}
+.purple-3{
+    background-color: #b8acd6!important;
+    &:hover{
+        background-color: $purple-1;
+        color: white;
+    }
+}
+.red-3{
+    background-color: #ff9696!important;
+    color: black !important;
+    &:hover{
+        background-color: $red-1;
+        color: white;
+    }
+}
+.white-3{
+    background-color: #ecfdff!important;
+    color: black !important;
+    &:hover{
+        background-color: $white;
+        color: white;
+    }
+}
+.yellow-3{
+    background-color: #faf5b1!important;
+    &:hover{
+        background-color: $yellow-1;
+        color: white;
+    }
+}

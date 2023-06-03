@@ -1,0 +1,99 @@
+@import "./abstracts/BreakPoints.scss";
+
+.allpoke-page-cont{
+    padding-top: 20px;
+    @include media(">set1"){
+        max-width: 612px;
+        margin-inline: auto ;
+    }
+    @include media(">set2"){
+        max-width: 720px;
+        position: relative;
+    }
+    @include media(">desktop"){
+        max-width: 960px;
+    }
+    h4{
+        font-size: 18px;
+        font-weight: 700;
+        margin: 45px 0 7px 20px;
+    }
+    p{
+        font-size: 18px;
+        margin: 0 0 0 20px;
+    }
+    .back-btn{
+        width: 24px;
+        transform: rotate(180deg);
+        margin: 5px 0 0 20px;
+        position: absolute;
+        top: 15px;
+        cursor: pointer;
+        @include media(">set1"){
+            left: -1%;
+        }
+    }
+}
+.result-all-cont{
+    display: flex;
+    flex-wrap: wrap;
+    width: 99%;
+    margin: 0 auto;
+    max-width: 360px;
+    @include media(">set2"){
+        max-width: 530px;
+    }
+    @include media(">desktop"){
+        max-width: 880px;
+        margin-top: 10px;
+    }
+    .group-card-cont{
+        cursor: pointer;
+        margin: 25px 10px 10px 15px;
+        width: 150px;
+        height: 100px;
+        position: relative;
+        background-color: white;
+        box-shadow: 5px 5px 12px 1px rgba(128, 128, 128, 0.271) ;
+        border-radius: 15px;
+        .image-cont{
+            position: absolute;
+            width: 75px;
+            height: 75px;
+            border-radius: 50%;
+            background-color: white;
+            box-shadow: 5px 5px 12px 1px rgba(128, 128, 128, 0.271) ;
+            top: -15px;
+            left: -5px;
+            img{
+                position: relative;
+                width: 85px;
+                top: -10px;
+                left: -6px;
+            }
+        }
+        h5{
+            float: right;
+            margin: 7px 10px 5px 0;
+            font-size: 16px;
+        }
+        .type-ico-cont{
+            position: absolute;
+            top: 33px;
+            right: 10px;
+            img{
+                width: 24px;
+                margin-left: 5px;
+            }
+        }
+        h3{
+            position: absolute;
+            bottom: 12px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 16px;
+            width: 100%;
+            text-align: center;
+        }
+    }
+}

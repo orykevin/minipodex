@@ -1,0 +1,333 @@
+@import "./abstracts/BreakPoints.scss";
+
+@keyframes spinball {
+    0%{
+        top: 50px;
+        left: -10px;
+        transform: rotate(0deg);
+    }25%{
+        top: 75px;
+        left: 40px;
+        transform: rotate(200deg);
+    }50%{
+        top: 100px;
+        left: 60px;
+        transform: rotate(400deg);
+    }75%{
+        top: 125px;
+        left: 70px;
+        transform: rotate(600deg);
+    }100%{
+        top: 150px;
+        left: 80px;
+        transform: rotate(800deg);
+    }
+}
+@keyframes spinball2 {
+    0%{
+        top: 0px;
+        right: -5px;
+        transform: rotate(0deg);
+    }25%{
+        top: 20px;
+        right: 15px;
+        transform: rotate(200deg);
+    }50%{
+        top: 30px;
+        right: 30px;
+        transform: rotate(400deg);
+    }75%{
+        top: 50px;
+        right: 45px;
+        transform: rotate(600deg);
+    }100%{
+        top: 70px;
+        right: 50px;
+        transform: rotate(800deg);
+    }
+}
+@keyframes summon1 {
+    from{
+        width: 50px;
+        opacity: 0.5;
+        filter: brightness(15);
+        bottom: 0px;
+        left: 55px;
+    }to{
+        width: 140px;
+        opacity: 1;
+        filter: brightness(1);
+        left: 0px;
+    }
+}
+@keyframes summon2 {
+    from{
+        width: 20px;
+        opacity: 0.5;
+        filter: brightness(15);
+        top: 64px;
+        right: 46px;
+    }to{
+        width: 85px;
+        opacity: 1;
+        filter: brightness(1);
+    }
+}
+@keyframes out1 {
+    from{
+        filter: brightness(2);
+        opacity: 1;
+    }to{
+        filter: brightness(15);
+        width: 24px;
+        bottom: 20px;
+        left: 78px;
+        opacity: 0;
+    }
+}
+@keyframes out2 {
+    from{
+        filter: brightness(2);
+        opacity: 1;
+    }to{
+        filter: brightness(15);
+        width: 20px;
+        top: 65px;
+        right:47px;
+    }
+}
+@keyframes infoClose {
+    from{
+
+    }to{
+    height: 35px;
+    margin-top: 45px;
+    }
+}
+.versus-page-cont{
+    z-index: 5;
+    position: fixed;
+    top: 0;
+    background-color: #F6F8FC !important;
+    width: 100%;
+    height: 100vh;
+    outline: solid;
+    .versus-header{
+        font-size: 26px;
+        margin-top: 12px;
+        text-align: center;
+        color: rgb(33, 33, 33);
+        @media screen and (min-height: 750px) {
+            margin-top: 35px;
+          }
+        @include media (">desktop"){
+            margin: 50px auto 10px auto;
+            font-size: 28px;
+        }
+    }
+    .back-btn{
+        width: 24px;
+        transform: rotate(180deg);
+        margin: 0 0 0 20px;
+        position: fixed;
+        top: 20px;
+        cursor: pointer;
+    }
+    .battlefield-cont{
+        width: 300px;
+        border: 6px solid white;
+        margin: 20px auto;
+        position: relative;
+        display: flex;
+        overflow: hidden;
+        border-radius: 10PX;
+        box-shadow: 5px 5px 12px 1px rgba(128, 128, 128, 0.564) ;
+        background: linear-gradient(to bottom, #58a8e4 30%, #538f0a 100%);
+        @include media (">desktop"){
+            margin: 125px auto 10px auto;
+        }
+    }
+    .battlefield{
+        width: 310px;
+        object-fit: cover;
+        flex-shrink: 0;
+    }
+    .pokemon-1{
+        position: absolute;
+        bottom: -10px;
+        width: 140px;
+        left: 20px;
+        opacity: 0;
+    }
+    .pokemon-2{
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        width: 85px;
+        opacity: 0;
+    }
+    .pokeball1{
+        position: absolute;
+        width: 27px;
+        top: -50px;
+    }
+    .pokeball2{
+        position: absolute;
+        width: 18px;
+        top: -50px;
+    }
+}
+
+.pokemon-selected{
+    width: 97%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    position: relative;
+    margin:  0 auto;
+    max-width: 600px;
+    @include media (">desktop"){
+        max-width: 1000px;
+        position: absolute;
+        justify-content: space-between;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 25%;
+    }
+    .search-poke{
+        width: 48%;
+        max-width: 300px;
+        @include media (">desktop"){
+            max-width: 300px;
+        }
+        h1{
+            font-size: 22px;
+            margin-bottom: 10px;
+            color: rgb(39, 39, 39);
+        }
+    }
+}
+.versus-info-cont{
+    width: 48%;
+    height: 400px;
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 5px 5px 15px 1px rgba(128, 128, 128, 0.564) ;
+    @media screen and (min-height: 760px) {
+        height: 440px;
+      }
+    @include media (">desktop"){
+        max-width: 300px;
+    }
+    .ext-btn{
+        width: 13px;
+        position: absolute;
+        top: 12px;
+        left:10px ;
+        cursor: pointer;
+    }
+    .open-btn{
+        width: 15px;
+        position: absolute;
+        top: 12px;
+        right:10px ;
+        cursor: pointer;
+    }
+    .name-info{
+        h2{
+            font-size: 18px;
+            color:  rgb(153, 153, 153);
+            margin-top: 7px;
+        }
+        h1{
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .type-icon-cont{
+            display: flex;
+            width: 95%;
+            margin-inline: auto;
+            justify-content: center;
+            @media screen and (min-height: 760px) {
+                display: block;
+              }
+            img{
+                width: 48%;
+                margin-inline: 2px;
+                max-width: 100px;
+                @media screen and (min-height: 760px) {
+                    width: 70%;
+                    margin-bottom: 5px;;
+                  }
+            }
+        }
+    }
+}
+
+
+.search-cont-versus{
+    .search-box{
+        width: 95%;
+        border-radius: 15px;
+        border: solid 1px grey;
+        position: relative;
+        padding: 3px;
+        background-color: white;
+        margin: 0 auto;
+        input{
+            width: 75%;
+            font-size: 18px;
+            margin: 0px 20px 0 2px;
+            border: none;
+            outline: none;
+            background-color: white;
+        }
+        img{
+            position: absolute;
+            width: 18px;
+            right: 10px;
+            top: 5px;
+        }
+    }
+}
+
+.search-result{
+    width: 97%;
+    margin: 5px auto;
+    background-color:  white;
+    overflow: auto;
+    max-height: 350px;
+    border-radius: 5px;
+    padding-bottom: 10px;
+}
+
+.summon-back{
+    animation: summon1 270ms linear 700ms forwards;
+}
+.summon-front{
+    animation: summon2 270ms linear 700ms forwards;
+}
+.out-back{
+    animation: out1 270ms linear forwards;
+}
+.out-front{
+    animation: out2 270ms linear   forwards;
+}
+.ball1-in{
+    animation: spinball 620ms 1 linear ;
+}
+.ball2-in{
+    animation: spinball2 620ms 1 linear ;
+}
+.ball1-out{
+    animation: spinball 650ms 1 linear 100ms reverse ;
+}
+.ball2-out{
+    animation: spinball2 650ms 1 linear 100ms reverse ;
+}
+.closed-info{
+    animation: infoClose 400ms  linear 150ms forwards;
+}
+

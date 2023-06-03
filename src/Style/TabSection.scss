@@ -1,0 +1,523 @@
+@import "./abstracts/BreakPoints.scss";
+
+@keyframes bar {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+@keyframes evo-card {
+    from{
+        left: -500px;
+    }
+    to{
+        left: 0px;
+    }
+}
+@keyframes test{
+    from{
+        width: 0%;
+    }
+}
+.details-pokemon-cont{
+    position: relative;
+    z-index: 10;
+}
+
+.about-tab-cont{
+    text-align: center;
+    width: 100%;
+    @media screen and (min-height: 800px) {
+        margin-top: 30px;
+      }
+    .bar-details{
+        width: 170px;
+        height: 40px;
+        background-color: rgb(152, 207, 152);
+        position: relative;
+        text-align: center;
+        line-height: 40px;
+        border-radius: 10px;
+        margin: 0 3px;
+      img{
+            margin:4px 5px 5px 5px;
+            width: 32px;
+        }
+    }
+    .abilities-bar{
+        outline: solid white;
+        width: 32%;
+    }
+    .shaping{
+        display: flex;
+        justify-content: center;
+    }
+    .abilities-bar{
+        margin: 0px 0;
+    }
+    .abillities-cont{
+        display: flex;
+        width: 96%;
+        margin:  10px auto;
+        justify-content: space-around;
+    }
+    .second-cont{
+        width: 92%;
+        display: flex;
+        justify-content: space-around;
+        margin: 10px auto;
+        h4{
+            margin: 0 0 10px 0;
+            @media screen and (min-height: 800px) {
+                margin-bottom: 15px;
+              }
+        }
+        @media screen and (min-height: 800px) {
+            margin: 17px auto;
+          }
+    }
+}
+.stats-tab-cont{
+    width: 90%;
+    margin: 0 auto;
+    .stats-tab{
+        margin: 27px 0;
+        @media screen and (min-height: 700px) {
+            margin: 30px 0;
+          }
+        @media screen and (min-height: 810px) {
+            margin: 35px 0;
+      }
+      .stat-info{
+        display: flex;
+        font-size: 16px;
+        p{
+            margin: 0 10px 0 3px;
+            font-weight: 700;
+            color: rgb(124, 124, 124);
+        }
+      }
+      .bar-info{
+        width: 100%;
+        margin: 5px auto;
+        position: relative;
+        .grey-bar{
+            width: 100%;
+            height: 12px;
+            border-radius: 15px;
+            background-color: rgba(204, 204, 204, 0.292);
+            position: absolute;
+          }
+        .stat-bar{
+            width: 100px;
+            height: 12px;
+            border-radius: 15px;
+            position: absolute;
+            animation: test 600ms ease-in-out forwards;
+        }
+        .hp{background-color: #f05e5e;}
+        .att{background-color: #FFA970;}
+        .deff{background-color: #FFE375;}
+        .spatt{background-color: #6065FE;}
+        .spdeff{background-color: #82B5F9;}
+        .spd{background-color: #53E87B;}
+        .total{background-color: #C45AF1;}
+      }
+    }
+}
+.evo-tab-cont{
+    overflow: auto;
+    height: 350px;
+    @media screen and (min-height: 700px) {
+        height: 50vh;
+      }
+}
+.evo-card-cont{
+    display: flex;
+    position: relative;
+    width: 95%;
+    height: 80px;
+    background-color: #e2e2e2;
+    border-radius: 10px;
+    margin: 2px auto 15px auto;
+    left: -500px;
+    animation: evo-card 200ms linear 400ms forwards;
+    cursor: pointer;
+    .evo-image{
+        width: 100px;
+        position: absolute;
+        top: -10px;
+        left: 5px;
+    }
+    .evo-name-cont{
+        margin: 18px 0 0 110px;
+        h3{
+            font-size: 16px;
+        }
+        p{
+            font-weight: 600;
+            color: rgb(116, 116, 116);
+        }
+    }
+    .evo-type-cont{
+        position: absolute;
+        display: flex;
+        right: 10px;
+        top: 23px;
+        img{
+            width: 30px;
+            margin: 0 7px 0 0px;
+        }
+    }
+}
+
+.move-tab-cont{
+    overflow: auto;
+    height: 50vh;
+    @media screen and (min-height: 700px) {
+        height: 50vh;
+      }
+    table{
+        background-color: #95d1a5;
+        border-collapse: collapse;
+        width: 95%;
+        margin: 0 auto;
+        border-radius: 10px;
+        .table-header{
+            border-radius: 10px;
+            th{
+                padding: 7px;
+                color: white;
+            }
+            .white-1{
+                color: black !important;
+            }
+        }
+        .lv-head{
+            width: 35px;
+            border-top-left-radius :10px;
+        }
+        .move-head{
+            width: 150px;
+            text-align: left;
+        }
+        .type-head{
+            width:45px;
+        }
+        .class-head{
+            width: 40px;
+            border-top-right-radius: 10px;
+        }
+        .type-icon img{
+            width: 27px;
+            margin: 2px 2px 0px 2px;
+        }
+        .class-icon{
+            .round-ico{
+                width: 27px;
+                height: 27px;
+                border-radius: 50%;
+                background-color: rgb(84, 84, 84);
+                position: relative;
+                margin: 0 auto;
+            }
+            img{
+                width: 19px;
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
+                top: 4px;
+            }
+        }
+        td{
+            border-bottom: 2px solid white;
+            text-align: center;
+            padding: 2px;
+        }
+        p{
+            text-align: left;
+        }
+    }
+    .move-list{
+        cursor: pointer;
+    }
+}
+
+.move-details-cont{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    background: rgba(255, 255, 255, 0.19);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.28);
+    .move-details-info{
+        width: 95%;
+        height: 90vh;
+        margin: 30px auto;
+        background-color: white;
+        position: relative;
+        padding-top: 25px;
+        border-radius: 15px;
+        @include media(">set1"){
+            max-width: 620px;
+        }
+        overflow: auto;
+        .close-move{
+            width: 24px;
+            transform: rotate(180deg);
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            cursor: pointer;
+        }
+        h1{
+            text-align: center;
+            font-size: 24px;
+        }
+        .bar-cont{
+            display: flex;
+            margin: 30px auto 35px auto;
+            justify-content: space-between;
+            width: 310px;
+            .type-bar{
+                width: 150px;
+            }
+            .class-bar{
+                width: 150px;
+                height: 40px;
+                border-radius: 25px;
+                position: relative;
+                img{
+                    width: 25px;
+                    position: absolute;
+                    top: 7px;
+                    left: 12px;
+                }
+                p{
+                    font-size: 18px;
+                    font-weight: 700;
+                    color: white;
+                    text-align: center;
+                    margin-top:8px;
+                    margin-left: 15px;
+                }
+                
+            }
+            .physical{
+                background-color: #e85d5d !important;
+            }
+            .special{
+                background-color: #286bb8 !important;
+            }
+            .status{
+                background-color: #9238ca !important;
+            }
+        }
+    }
+    .move-status-cont{
+        margin-bottom: 40px;
+        .status-box{
+            position: relative;
+            display: flex;
+            width: 280px;
+            height: 50px;
+            background-color: #53E87B;
+            margin: 15px auto;
+            border-radius: 12px;
+            svg{
+                margin: 15px 20px;
+                position: absolute;
+                top: 2px;
+            }
+            h1{
+                font-size: 20px;
+                position: absolute;
+                top: 10px;
+                left: 17px;
+            }
+            h3{
+                margin: 15px 0 0 55px;
+                font-size: 16px;
+            }
+            h2{
+                font-size: 18px;
+                position: absolute;
+                top:13px;
+                right: 20px;
+            }
+        }
+    }
+    .effect-cont{
+        text-align: center;
+        width: 92%;
+        position: relative;
+        background-color: #53E87B;
+        padding: 37px 0 20px 0;
+        margin: 30px auto;
+        border-radius: 15px;
+        @include media(">set1"){
+            max-width: 400px;
+        }
+        h3{
+            color: white;
+            background-color: #428a55;
+            width: 170px;
+            position: absolute;
+            top: -12px;
+            left: 50%;
+            transform: translateX(-50%);
+            padding: 7px 0;
+            border-radius: 10px;
+            font-size: 17px;
+        }
+        p{
+            font-size: 16px;
+            font-weight: 600;
+            width: 90%;
+            margin: 0 auto;
+        }
+    }
+}
+
+.versus-stats-cont{
+    width: 90%;
+    margin: -5px auto;
+    .stats-tab{
+        margin: 22px 0;
+      .stat-info{
+        font-size: 13px;
+      }
+      .bar-info{
+        .grey-bar{
+            height: 9px;
+          }
+        .stat-bar{
+            height: 9px;
+        }
+      }
+    }
+}
+.zoom-container{
+    z-index: 15;
+    width: 95%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 97vh;
+    background: rgba(255, 255, 255, 0.19);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.28);
+    text-align: center;
+    @include media (">set2"){
+        width: 100%;
+        height: 100vh;
+    }
+    .image-zoom-container{
+        position: relative;
+        width: 95%;
+        height: 75vh;
+        max-height: 500px;
+        background-color: white;
+        box-shadow: 2px 4px 30px rgba(0, 0, 0, 0.1);
+        border-radius: 15px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        padding-top: 10px;
+        transition: 10s;
+        @include media (">set2"){
+            max-width: 650px;
+            max-height: 550px;
+        }
+        .pokemon-image{
+            width: 280px;
+            position: absolute;
+            bottom: 145px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 5;
+            @include media (">set2"){
+                width: 360px;
+            }
+        }
+        .D3{
+            width: 310px;
+            bottom: 150px;
+            @include media (">set2"){
+                width: 370px;
+                bottom: 170px;
+            }
+        }
+        span{
+            position: absolute;
+            top: -2px;
+            right: 0px;
+            width: 40px;
+            height: 40px;
+            background-color: rgb(204, 204, 204);
+            border-radius: 50%;
+            text-align: center;
+            line-height: 40px;
+            margin: 15px 15px 0 15px;
+            font-weight: 600;
+            cursor: pointer;
+            z-index: 10;
+        }
+        .close-zoom{
+            z-index: 10;
+            width: 24px;
+            transform: rotate(180deg);
+            position: absolute;
+            top: 20px;
+            left: 15px;
+            cursor: pointer;
+        }
+        .zoom-info{
+            position: absolute;
+            bottom:25px;
+            left: 50%;
+            transform: translateX(-50%);
+            h2{
+                margin-bottom: -5px;
+            }
+            h1{
+                width: 300px;
+            }
+        }
+        .zoom-border{
+            width: 85%;
+            outline: solid 1px;
+            height: -2px;
+            position: absolute;
+            bottom: 120px;
+            left: 50%;
+            transform: translateX(-50%);
+            img{
+                width: 28px;
+                top: -14px;
+                background-color: white;
+                padding-inline: 7px;
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+        }
+        
+    }
+
+}
+
+.zoom-none{
+    display: none;
+}
